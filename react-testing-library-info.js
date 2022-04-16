@@ -21,4 +21,16 @@ Testing Library encourages testing behavior over implementation. BDD involves co
 Its best to target elements by role. w3e has role recomendations in W3E role definitions page. 
 
 If our app cant find an element like a screen reader would then our app is not friendly to screen readers.
+
+We test INTERACTIVITY using fireEvent.
+jest-dom assertions:
+- toBeEnabled()
+- toBeDisabled()
+- toBeChecked()
+- not.toBeChecked()
+
+getByRole option { name: }
+Jest describe is used to group tests into logical groups.
+
+Unit testing functions is testing single function when a component is complex and has a lot of functions inside it.
 */
