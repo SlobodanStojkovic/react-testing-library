@@ -33,4 +33,28 @@ getByRole option { name: }
 Jest describe is used to group tests into logical groups.
 
 Unit testing functions is testing single function when a component is complex and has a lot of functions inside it.
+
+command[All]ByQueryType
+command
+- get:expect element to be in DOM
+- query: expect element not to be in DOM
+- find: expect element to appear async
+
+[All]
+exclude All - expect only one match
+include All - expect more than one match
+
+QueryType:
+Role (most preferred)
+AltText (images)
+Text (display elmeents)
+Form elements (PlaceholderText, LabelText, DisplayValue)
+
+References:
+testing-library.com > api-queries
+testing-library.com > cheatsheet
+testing-library.com > guide which query
+
+
+npm install msw   > Installs MOCK SERVICE WORKER, that interceps network calls
 */
